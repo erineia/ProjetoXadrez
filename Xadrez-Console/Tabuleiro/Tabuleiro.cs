@@ -53,7 +53,7 @@ namespace tabuleiro
         {
             if (!posicaoValida(pos))
             {
-                throw new System.Exception("Posisão inválida");
+                throw new System.Exception("Posicao inválida");
             }
         }
 
