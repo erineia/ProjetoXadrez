@@ -1,7 +1,4 @@
 ﻿
-
-using System.Xml;
-
 namespace tabuleiro
 {
     class Tabuleiro

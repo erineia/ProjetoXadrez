@@ -17,6 +17,12 @@ namespace tabuleiro
 
         }
 
+        protected Peca(Tabuleiro tab, Cor cor)
+        {
+            this.tab = tab;
+            this.cor = cor;
+        }
+
         public void incrementarQtdMovimento()
         {
             QtdMovimentos++;
@@ -42,7 +48,7 @@ namespace tabuleiro
 
         }
 
-        public bool podeMoverPara(Posicao pos)
+        public bool movimentoPossivel(Posicao pos)
         {
             return movimentosPossiveis()[pos.Linha, pos.Coluna];
         }
